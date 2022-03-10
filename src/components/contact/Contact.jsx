@@ -15,7 +15,6 @@ const Contact = () => {
     emailjs.sendForm('service_p90sqsj', 'template_7ulm2mi', form.current, 'UjF1igHzWrQfsYaSW')
 
     e.target.reset()
-    alert('message sended')
   };
 
   return (
