@@ -10,10 +10,10 @@ import { useState } from 'react'
 
 const Nav = () => {
 
-  const [activeNav, setActiveNav] = useState('#');
+  const [activeNav, setActiveNav] = useState('#header');
   return (
     <nav>
-      <a href='#' onClick={() => setActiveNav('#')} className={activeNav === "#" ? 'active' : ''}><AiFillHome/></a>
+      <a href='#header' onClick={() => setActiveNav('#header')} className={activeNav === "#" ? 'active' : ''}><AiFillHome/></a>
       <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === "#about" ? 'active' : ''} ><FaUserAlt/></a>
       <a href='#experience'onClick={() => setActiveNav('#experience')} className={activeNav === "#experience" ? 'active' : ''}><BsFillBookFill/></a>
       <a href='#service'onClick={() => setActiveNav('#service')} className={activeNav === "#service" ? 'active' : ''}><MdHomeRepairService/></a>

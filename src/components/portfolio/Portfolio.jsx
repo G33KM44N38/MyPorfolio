@@ -1,12 +1,12 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import {IoCodeWorkingSharp} from 'react-icons/io5'
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: "Gestion d'ingredient",
+    image: '',
+    title: "work is in progress",
     github: 'https://github.com',
     demo: '',
   },
@@ -22,14 +22,15 @@ const Portfolio = () => {
           data.map(({id, image, title, github, demo}) =>{
             return (
               <article className='portfolio_item'>
-                  <div key={id} className="portfolio_item-image">
+                  {/* <div key={id} className="portfolio_item-image">
                     <img src={image} alt={title} />
-                  </div>
+                  </div> */}
+                  <IoCodeWorkingSharp/>
                   <h3>{title}</h3>
-                  <div className="portfolio_item-cta">
+                  {/* <div className="portfolio_item-cta">
                     <a href={github} rel="noreferrer" className='btn' target='_blank'>Github</a>
                     <a href={demo} rel="noreferrer" className='btn btn-primary' target='_blank'>Live Demo</a>
-                  </div>
+                  </div> */}
               </article>
             )
           })

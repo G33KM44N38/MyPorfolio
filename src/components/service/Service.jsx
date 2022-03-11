@@ -23,8 +23,17 @@ const Service = () => {
               <AiOutlineCheck className='service_list-icon'/>
               <p>make dynamique page</p>
             </li>
+            <li>
+              <AiOutlineCheck className='service_list-icon'/>
+              <p>responsive web page</p>
+            </li>
+            <li>
+              <AiOutlineCheck className='service_list-icon'/>
+              <p>change the appaerence of your page according to your purpose</p>
+            </li>
           </ul>
         </article>
+        {/* END OF FRONTEND */}
         <article className='service'>
           <div className="service_head">
             <h3>Backend</h3>
@@ -34,6 +43,10 @@ const Service = () => {
             <li>
               <AiOutlineCheck className='service_list-icon'/>
               <p>Handle different user</p>
+            </li>
+            <li>
+              <AiOutlineCheck className='service_list-icon'/>
+              <p>Knowledge of APIs</p>
             </li>
           </ul>
         </article>

@@ -40,11 +40,11 @@ const About = () => {
           </div>
           <p>
             Hello my name Is Kylian, I started code on 2020, by little program, in C language.
-            Then I tried to enter to 42 school, that where my passion for coding, increase.
+            Then I tried to enter to 42 school, that where my passion for coding, increase. <br />
             The fact that I want to make a program, application, interface, algorithm, that work,
             make me feel so happy. <br />
-            That's why I make coding a huge part of my life <br />
-            I learned almost everything by myself, so i'm autonomous, patient and a hustler
+            That's why I make coding a huge part of my life.<br />
+            I learned almost everything by myself, so i'm autonomous, patient and I'm a hustler
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
