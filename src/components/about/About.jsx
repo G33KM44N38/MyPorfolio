@@ -29,26 +29,22 @@ const About = () => {
             <article className='about_card'>
               <RiUserSettingsFill className='about_icon'/>
               <h5>Client</h5>
-              <small>friends U know</small>
+              <small>3 clients</small>
             </article>  
 
             <article className='about_card'>
               <IoFolderSharp className='about_icon'/>
               <h5>Project</h5>
-              <small>personal project</small>
+              <small>mostly personal</small>
             </article>  
           </div>
           <p>
-            amoajf alkjf al akflja f;kas lka;f jaldf jlakjf a a;lfk jaf 
-            alkjfadl kf akl;fjf a;lfjkalf jklajf aa flkjalf;kijfalkjfal;kf 
-            al;kfja l;fjakljf;ajfakljfaklj;kaljfiuojeoingjak
-            al;kfja l;fjakljf;ajfakljfaklj;kaljfiuojeoingjak
-            al;kfja l;fjakljf;ajfakljfaklj;kaljfiuojeoingjak
-            al;kfja l;fjakljf;ajfakljfaklj;kaljfiuojeoingjak
-            al;kfja l;fjakljf;ajfakljfaklj;kaljfiuojeoingjak
-            al;kfja l;fjakljf;ajfakljfaklj;kaljfiuojeoingjak
-            al;kfja l;fjakljf;ajfakljfaklj;kaljfiuojeoingjak
-            al;kfja l;fjakljf;ajfakljfaklj;kaljfiuojeoingjak
+            Hello my name Is Kylian, I started code on 2020, by little program, in C language.
+            Then I tried to enter to 42 school, that where my passion for coding, increase.
+            The fact that I want to make a program, application, interface, algorithm, that work,
+            make me feel so happy. <br />
+            That's why I make coding a huge part of my life <br />
+            I learned almost everything by myself, so i'm autonomous, patient and a hustler
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
