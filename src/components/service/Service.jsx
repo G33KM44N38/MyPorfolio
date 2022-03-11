@@ -48,11 +48,15 @@ const Service = () => {
               <AiOutlineCheck className='service_list-icon'/>
               <p>Knowledge of APIs</p>
             </li>
+            <li>
+              <AiOutlineCheck className='service_list-icon'/>
+               <p>Host your page to AWS services</p>
+            </li>
           </ul>
         </article>
       </div>
     </section>
   )
 }
-
+ 
 export default Service
