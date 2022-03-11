@@ -70,7 +70,12 @@
     }
 
     .experience_container > div {
-        width: 100%;
+        width: var(--container-witdth-sm);
         padding: 2rem 1rem;
+    }
+    
+    .experience_content {
+        display: flex;
+        flex-direction: column;
     }
 }
