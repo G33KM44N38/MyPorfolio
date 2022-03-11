@@ -1,5 +1,6 @@
 import React from 'react'
 import './Testimonials.css'
+import {BsPersonCircle} from 'react-icons/bs'
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -34,9 +35,10 @@ const Testimonials = () => {
           data.map(({avatar, name, review}, index) => {
             return (
               <SwiperSlide key={index} className="testimonial">
-                <div className="client_avatar">
+                {/* <div className="client_avatar">
                   <img src={avatar} alt="Avatar one" />
-                </div>
+                </div> */}
+                <BsPersonCircle fontSize="50px" color='#4db5ff'/>
                 <h5 className='client_review'>{name}</h5>
                 <small className="client_name">
                   {review}
