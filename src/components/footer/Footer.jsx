@@ -2,7 +2,6 @@ import React from 'react'
 import './Footer.css'
 import {BsGithub} from 'react-icons/bs'
 import {AiFillLinkedin} from 'react-icons/ai'
-import {SiFiverr} from 'react-icons/si'
 
 const Footer = () => {
   return (
@@ -19,8 +18,8 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="https://github.com/G33KM44N38" target="_blank"><BsGithub/></a>
-        <a href="https://www.linkedin.com/in/kylian-mayanga-fournier-a60a75198/" target="_blank"><AiFillLinkedin/></a>
+        <a rel="noreferrer" href="https://github.com/G33KM44N38" target="_blank"><BsGithub/></a>
+        <a rel="noreferrer" href="https://www.linkedin.com/in/kylian-mayanga-fournier-a60a75198/" target="_blank"><AiFillLinkedin/></a>
       </div>
 
       <div className="footer_copyright">

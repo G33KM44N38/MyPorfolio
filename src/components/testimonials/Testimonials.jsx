@@ -1,9 +1,5 @@
 import React from 'react'
 import './Testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -16,24 +12,9 @@ import 'swiper/css/pagination';
 
 const data = [
   {
-    avatar: AVTR1,
-    name: 'tina Turner',
-    review: 'afklaf lakjfalk fjakljf akljf alka fjklafd alkfj alfkj afldkaj falk klajfiohdga gj al;kgj akgneja g;; alkfja klfjiowj wiojaf;klf jkanfbakc jfa',
-  },
-  {
-    avatar: AVTR2,
-    name: 'tina Turner',
-    review: 'afklaf lakjfalk fjakljf akljf alka fjklafd alkfj alfkj afldkaj falk klajfiohdga gj al;kgj akgneja g;; alkfja klfjiowj wiojaf;klf jkanfbakc jfa',
-  },
-  {
-    avatar: AVTR3,
-    name: 'tina Turner',
-    review: 'afklaf lakjfalk fjakljf akljf alka fjklafd alkfj alfkj afldkaj falk klajfiohdga gj al;kgj akgneja g;; alkfja klfjiowj wiojaf;klf jkanfbakc jfa',
-  },
-  {
-    avatar: AVTR4,
-    name: 'tina Turner',
-    review: 'afklaf lakjfalk fjakljf akljf alka fjklafd alkfj alfkj afldkaj falk klajfiohdga gj al;kgj akgneja g;; alkfja klfjiowj wiojaf;klf jkanfbakc jfa',
+    avatar: '',
+    name: '',
+    review: 'whanna be the first who give a review ? Contact Me in the form at the end of the page',
   },
 ]
 
