@@ -7,18 +7,19 @@ import {BsFillBookFill} from 'react-icons/bs'
 import {AiFillMessage} from 'react-icons/ai'
 import {FaComments} from 'react-icons/fa'
 import { useState } from 'react'
+import {Link} from 'react-scroll'
 
 const Nav = () => {
 
   const [activeNav, setActiveNav] = useState('#header');
   return (
     <nav>
-      <a href='#header' onClick={() => setActiveNav('#header')} className={activeNav === "#" ? 'active' : ''}><AiFillHome/></a>
-      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === "#about" ? 'active' : ''} ><FaUserAlt/></a>
-      <a href='#experience'onClick={() => setActiveNav('#experience')} className={activeNav === "#experience" ? 'active' : ''}><BsFillBookFill/></a>
-      <a href='#service'onClick={() => setActiveNav('#service')} className={activeNav === "#service" ? 'active' : ''}><MdHomeRepairService/></a>
-      <a href='#testimonials'onClick={() => setActiveNav('#testimonials')} className={activeNav === "#testimonials" ? 'active' : ''}><AiFillMessage/></a>
-      <a href='#contact'onClick={() => setActiveNav('#contact')} className={activeNav === "#contact" ? 'active' : ''}><FaComments/></a>
+      <Link to="header" spy={true} smooth={true} duration={500}><AiFillHome/></Link>
+      <Link to="about" spy={true} smooth={true} duration={500}><FaUserAlt/></Link>
+      <Link to="experience" spy={true} smooth={true} duration={500}><BsFillBookFill/></Link>
+      <Link to="service" spy={true} smooth={true} duration={500}><MdHomeRepairService/></Link>
+      <Link to="testimonials" spy={true} smooth={true} duration={500}><AiFillMessage/></Link>
+      <Link to="contact" spy={true} smooth={true} duration={500}><FaComments/></Link>
     </nav>
   )
 }
