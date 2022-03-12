@@ -66,7 +66,14 @@ const Experience = () => {
                     <h4>MongoDB</h4>
                     <small className='text-light'>Basic</small>
                   </div>
-               </article>
+                </article>
+                <article className='experience_details'>
+                  <BsFillPatchCheckFill className="experience_details-icon"/>
+                  <div>
+                    <h4>AWS</h4>
+                    <small className='text-light'>Basic</small>
+                  </div>
+                </article>
             </div>
           </div>
         </div>

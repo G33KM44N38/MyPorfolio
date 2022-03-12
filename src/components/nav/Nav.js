@@ -6,12 +6,10 @@ import {MdHomeRepairService} from 'react-icons/md'
 import {BsFillBookFill} from 'react-icons/bs'
 import {AiFillMessage} from 'react-icons/ai'
 import {FaComments} from 'react-icons/fa'
-import { useState } from 'react'
 import {Link} from 'react-scroll'
 
 const Nav = () => {
 
-  const [activeNav, setActiveNav] = useState('#header');
   return (
     <nav>
       <Link to="header" spy={true} smooth={true} duration={500}><AiFillHome/></Link>
