@@ -81,7 +81,20 @@ header{
         height: 100vh;
     }
 
-    .header_socials , .scroll_down{
+    .header_socials , .scroll_down , .me{
         display: none;
     }
+    
+    header {
+        height: 35rem;
+    }
+
+    .cta{
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2rem;
+    }
+
 }
