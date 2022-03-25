@@ -2,7 +2,7 @@
   "homepage": " http://G33KM44N38.github.io/MyPortfolio/",
   "name": "frontend",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
