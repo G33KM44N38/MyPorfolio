@@ -9,7 +9,7 @@ const data = [
     image: WindBnb,
     title: "WindBnb",
     github: 'https://github.com/G33KM44N38/Windbnb',
-    demo: 'https://rad-gumdrop-e414d1.netlify.app/',
+    demo: 'https://g33km44n38.github.io/Windbnb/',
   },
 ]
 
