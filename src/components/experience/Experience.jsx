@@ -8,6 +8,8 @@ const Experience = () => {
       <h5>Skills I have</h5>
       <h2>
         <div className="container experience_container">
+
+          {/* FRONT-END */}
           <div className="experience_frontend">
             <h3>Frontend Development</h3>
             <div className="experience_content">
@@ -46,9 +48,9 @@ const Experience = () => {
            </div>
           </div>
 
-          {/* END OF FRONTEND */}
+          {/* BAKC-END */}
 
-          <div className="experience_backend">
+          {/* <div className="experience_backend">
             <h3>Backend Development</h3>
               <div className="experience_content">
 
@@ -56,7 +58,7 @@ const Experience = () => {
                   <BsFillPatchCheckFill className="experience_details-icon"/>
                   <div>
                     <h4>Node JS</h4>
-                    <small className='text-light'>intermediate</small>
+                    <small className='text-light'>Intermediate</small>
                   </div>
                </article>
 
@@ -75,7 +77,7 @@ const Experience = () => {
                   </div>
                 </article>
             </div>
-          </div>
+          </div> */}
         </div>
       </h2>
     </section>

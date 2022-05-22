@@ -1,7 +1,10 @@
 import React from 'react'
 import './Portfolio.css'
-import {IoCodeWorkingSharp} from 'react-icons/io5'
+
+
+//image of my project
 import WindBnb from '../../assets/WindBnb.png'
+import ToDoApp from '../../assets/imgage of project/ToDo/TodoApp.png'
 
 const data = [
   {
@@ -10,6 +13,13 @@ const data = [
     title: "WindBnb",
     github: 'https://github.com/G33KM44N38/Windbnb',
     demo: 'https://g33km44n38.github.io/Windbnb/',
+  },
+  {
+    id: 2,
+    image: ToDoApp,
+    title: "TODO App",
+    github: 'https://github.com/G33KM44N38/todo',
+    demo: 'https://g33km44n38.github.io/todo/',
   },
 ]
 

@@ -37,7 +37,7 @@ const Contact = () => {
         </div>
         {/* END OF CONTACT OPTION */}
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your fulle Name' required/>
+          <input type="text" name='name' placeholder='Your full Name' required/>
           <input type="email" name='email' placeholder='Your email' required/>
           <textarea name="message" rows="7" placeholder='Your message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>

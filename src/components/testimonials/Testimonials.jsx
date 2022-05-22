@@ -15,7 +15,7 @@ const data = [
   {
     avatar: '',
     name: '',
-    review: 'You want to leave a comment, contact me in the form, in the form below',
+    review: 'You want to leave a comment, contact me in the form below',
   },
 ]
 

@@ -17,24 +17,25 @@ const Service = () => {
           <ul className='service_list'>
             <li>
               <AiOutlineCheck className='service_list-icon'/>
-              <p>Make static page</p>
+              <p>Static website</p>
             </li>
             <li>
               <AiOutlineCheck className='service_list-icon'/>
-              <p>make dynamique page</p>
+              <p>Dynamyc website</p>
             </li>
             <li>
               <AiOutlineCheck className='service_list-icon'/>
-              <p>responsive web page</p>
+              <p>Responsive web page</p>
             </li>
             <li>
               <AiOutlineCheck className='service_list-icon'/>
-              <p>change the appaerence of your page according to your purpose</p>
+              <p>Web Application</p>
             </li>
           </ul>
         </article>
-        {/* END OF FRONTEND */}
-        <article className='service'>
+
+        {/* BACKEND */}
+        {/* <article className='service'>
           <div className="service_head">
             <h3>Backend</h3>
           </div>
@@ -53,7 +54,7 @@ const Service = () => {
                <p>Host your page to AWS services</p>
             </li>
           </ul>
-        </article>
+        </article> */}
       </div>
     </section>
   )
