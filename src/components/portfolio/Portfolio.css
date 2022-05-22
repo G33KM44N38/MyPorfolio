@@ -5,6 +5,9 @@
 }
 
 .portfolio_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: var(--color-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;
@@ -20,6 +23,7 @@
 .portfolio_item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    height: 45%;
 }
 
 .portfolio_item h3 {
