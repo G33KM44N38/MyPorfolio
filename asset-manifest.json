@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.2710d09a.css",
-    "main.js": "/MyPortfolio/static/js/main.542be227.js",
+    "main.css": "/MyPortfolio/static/css/main.846eade3.css",
+    "main.js": "/MyPortfolio/static/js/main.c755a678.js",
     "static/media/me.png": "/MyPortfolio/static/media/me.ee013239f441e7207efe.png",
     "static/media/WindBnb.png": "/MyPortfolio/static/media/WindBnb.708e614568f736855696.png",
-    "static/media/me-about.png": "/MyPortfolio/static/media/me-about.3e78bdc3f74a555a25db.png",
-    "static/media/CV.pdf": "/MyPortfolio/static/media/CV.7869836c17908b0e4456.pdf",
+    "static/media/CV.pdf": "/MyPortfolio/static/media/CV.2a22e99b61bb95b9f64a.pdf",
+    "static/media/me-about.png": "/MyPortfolio/static/media/me-about.19ab51afc48ed45cac56.png",
+    "static/media/KaelGame.jpeg": "/MyPortfolio/static/media/KaelGame.c32c6c94b4bf8b9a71a7.jpeg",
     "static/media/TodoApp.png": "/MyPortfolio/static/media/TodoApp.b5a1db12902154af052a.png",
     "index.html": "/MyPortfolio/index.html",
-    "main.2710d09a.css.map": "/MyPortfolio/static/css/main.2710d09a.css.map",
-    "main.542be227.js.map": "/MyPortfolio/static/js/main.542be227.js.map"
+    "main.846eade3.css.map": "/MyPortfolio/static/css/main.846eade3.css.map",
+    "main.c755a678.js.map": "/MyPortfolio/static/js/main.c755a678.js.map"
   },
   "entrypoints": [
-    "static/css/main.2710d09a.css",
-    "static/js/main.542be227.js"
+    "static/css/main.846eade3.css",
+    "static/js/main.c755a678.js"
   ]
 }
