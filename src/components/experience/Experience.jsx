@@ -5,7 +5,7 @@ import { BsFillPatchCheckFill } from 'react-icons/bs'
 var Intermediate = "Intermediate"
 var Beginner = "Beginner"
 var Experienced = "Experienced"
-var Expert = "Expert"
+// var Expert = "Expert"
 
 
 
