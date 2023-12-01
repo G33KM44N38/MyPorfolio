@@ -4,29 +4,28 @@ import './Portfolio.css'
 
 //image of my project
 import WindBnb from '../../assets/WindBnb.png'
-import ToDoApp from '../../assets/imgage of project/ToDo/TodoApp.png'
 import KaelGame from '../../assets/imgage of project/KaelGame.jpeg'
+import Minata from '../../assets/imgage of project/Minata.png'
 
 const project = [
 	{
 		id: 1,
+		image: Minata,
+		title: "MINATA",
+		demo: 'minata.fr',
+	},
+	{
+		id: 2,
 		image: KaelGame,
 		title: "Kael Game",
 		demo: 'https://apps.apple.com/fr/app/ka%C3%ABl-game/id1639300723',
 	},
 	{
-		id: 2,
+		id: 3,
 		image: WindBnb,
 		title: "WindBnb",
 		github: 'https://github.com/G33KM44N38/Windbnb',
 		demo: 'https://g33km44n38.github.io/Windbnb/',
-	},
-	{
-		id: 3,
-		image: ToDoApp,
-		title: "TODO App",
-		github: 'https://github.com/G33KM44N38/todo',
-		demo: 'https://g33km44n38.github.io/todo/',
 	},
 ]
 

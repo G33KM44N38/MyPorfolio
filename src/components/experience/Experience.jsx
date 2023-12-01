@@ -2,51 +2,29 @@ import React from 'react'
 import './Experience.css'
 import { BsFillPatchCheckFill } from 'react-icons/bs'
 
-var Intermediate = "Intermediate"
-var Beginner = "Beginner"
-var Experienced = "Experienced"
-// var Expert = "Expert"
-
-
-
 const FrontEnd = [
 	{
 		id: 1,
 		name: "REACT.JS",
-		level: Intermediate,
 	},
 	{
 		id: 2,
-		name: "HTML",
-		level: Experienced
+		name: "React Native",
 	},
-	{
-		id: 3,
-		name: "CSS",
-		level: Intermediate,
-	},
-	{
-		id: 4,
-		name: "JAVASCIPT",
-		level: Experienced
-	}
 ]
 
 const BackEnd = [
 	{
 		id: 1,
 		name: "Golang",
-		level: Experienced
 	},
 	{
 		id: 2,
 		name: "NodeJS",
-		level: Intermediate
 	},
 	{
 		id: 3,
-		name: "MongoDB",
-		level: Beginner
+		name: "Database",
 	},
 ]
 const Experience = () => {
@@ -61,13 +39,12 @@ const Experience = () => {
 						<h3>Frontend Development</h3>
 						<div className="experience_content">
 							{
-								FrontEnd.map(({ id, name, level }) => {
+								FrontEnd.map(({ id, name }) => {
 									return (
 										<article className='experience_details'>
 											<BsFillPatchCheckFill className="experience_details-icon" />
 											<div key={id}>
 												<h4>{name}</h4>
-												<small className='text-light'>{level}</small>
 											</div>
 										</article>
 									)
@@ -82,13 +59,12 @@ const Experience = () => {
 						<h3>Backend Development</h3>
 						<div className="experience_content">
 							{
-								BackEnd.map(({ id, name, level }) => {
+								BackEnd.map(({ id, name }) => {
 									return (
 										<article className='experience_details'>
 											<BsFillPatchCheckFill className="experience_details-icon" />
 											<div key={id}>
 												<h4>{name}</h4>
-												<small className='text-light'>{level}</small>
 											</div>
 										</article>
 									)
